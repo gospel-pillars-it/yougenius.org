@@ -48,7 +48,7 @@
 							<div class="header-row">
 								<div class="header-logo">
 									<a href="#">
-										<img alt="You Genius" width="100" height="48" src="img/logo.png">
+										<img alt="YouGenius" width="100" height="48" src="img/logo.png">
 									</a>
 								</div>
 							</div>
@@ -62,22 +62,22 @@
 										<nav class="collapse">
 											<ul class="nav nav-pills" id="mainNav">
 												<li>
-													<a class="nav-link active" href="demo-education.htm">
+													<a class="nav-link active" href="#">
 														Home
 													</a>
 												</li>
 												<li>
-													<a class="nav-link" href="demo-education-about-us.htm">
+													<a class="nav-link" href="#about">
 														About YouGenius
 													</a>
 												</li>
 												<li>
-													<a class="nav-link" href="demo-education-courses.htm">
+													<a class="nav-link" href="#activities">
 														Activities
 													</a>
 												</li>
 												<li>
-													<a class="nav-link" href="demo-education-instructors.htm">
+													<a class="nav-link" href="#testimonials">
 														Testimonials
 													</a>
 												</li>
