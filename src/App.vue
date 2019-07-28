@@ -4,6 +4,10 @@
     <div role="main" class="main">
       <Slider />
       <Intro />
+<<<<<<< HEAD
+=======
+      <Testimonials />
+>>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
     </div>
     <Footer />
   </div>
@@ -15,12 +19,17 @@ import Header from './components/Header.vue'
 import Slider from './components/Slider.vue'
 import Intro from './components/Intro.vue'
 import GetStarted from './components/GetStarted.vue'
+<<<<<<< HEAD
+=======
+import Testimonials from './components/Testimonials.vue'
+>>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
 
 export default {
   name: 'app',
   metaInfo: {
     title: "You Genius",
     script:[
+<<<<<<< HEAD
       {src: 'master/style-switcher/style.switcher.localstorage.js'},
       {src: 'vendor/modernizr/modernizr.min.js'},
       {src: 'vendor/jquery/jquery.min.js', async: true},
@@ -45,6 +54,11 @@ export default {
       {src: 'js/views/view.contact.js', defer: true, body: true},
       {src: 'js/demos/demo-education.js', defer: true, body: true},
       {src: 'js/theme.init.js', defer: true, body: true}
+=======
+      {src: 'vendor/jquery/jquery.min.js', async: true},
+      {src: 'js/demos/demo-education.js', defer: true, body: true},
+      {src: 'js/theme.init.js', body: true}
+>>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
     ]
  },
   components: {
@@ -52,7 +66,12 @@ export default {
     Header,
     Slider,
     Intro,
+<<<<<<< HEAD
     GetStarted
+=======
+    GetStarted,
+    Testimonials
+>>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
   }
 }
 </script>
@@ -76,4 +95,7 @@ export default {
 @import url('css/demos/demo-education.css');
 @import url('css/skins/skin-education.css');
 @import url('css/custom.css');
+.appear-animation{
+  opacity: 1;
+}
 </style>
