@@ -15,13 +15,9 @@
 														href="tel:+1234567890">125 586 5555</a></span>
 											</li>
 											<li class="nav-item nav-item-borders py-2">
-												<span class="ws-nowrap text-light"><span class="opacity-7">Email:</span>
+												<span class="ws-nowrap text-light"><span class="opacity-7">Email: </span>
 													<a class="text-light"
-														href="mailto:info@porto.com">info@porto.com</a></span>
-											</li>
-											<li class="nav-item nav-item-borders py-2 d-none d-md-inline-flex">
-												<span class="ws-nowrap text-light"><span class="opacity-7">Time:</span>
-													Mon-Sat 8:00am - 5:00pm</span>
+														href="mailto:info@yougenius.org">info@yougenius.org</a></span>
 											</li>
 										</ul>
 									</nav>
@@ -51,8 +47,8 @@
 						<div class="header-column">
 							<div class="header-row">
 								<div class="header-logo">
-									<a href="demo-education.htm">
-										<img alt="Porto" width="100" height="48" src="img/demos/education/logo.png">
+									<a href="#">
+										<img alt="You Genius" width="100" height="48" src="img/logo.png">
 									</a>
 								</div>
 							</div>
@@ -72,26 +68,21 @@
 												</li>
 												<li>
 													<a class="nav-link" href="demo-education-about-us.htm">
-														About Us
+														About YouGenius
 													</a>
 												</li>
 												<li>
 													<a class="nav-link" href="demo-education-courses.htm">
-														Courses
+														Activities
 													</a>
 												</li>
 												<li>
 													<a class="nav-link" href="demo-education-instructors.htm">
-														Instructors
+														Testimonials
 													</a>
 												</li>
 												<li>
-													<a class="nav-link" href="demo-education-blog.htm">
-														Blog
-													</a>
-												</li>
-												<li>
-													<a class="nav-link" href="demo-education-contact-us.htm">
+													<a class="nav-link" href="#contact">
 														Contact Us
 													</a>
 												</li>
@@ -102,23 +93,6 @@
 										data-target=".header-nav-main nav">
 										<i class="fas fa-bars"></i>
 									</button>
-								</div>
-								<div
-									class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
-									<div class="header-nav-feature header-nav-features-search d-inline-flex"> <a
-											href="#" class="header-nav-features-toggle" data-focus="headerSearch"><i
-												class="fas fa-search header-nav-top-icon"></i></a>
-										<div class="header-nav-features-dropdown" id="headerTopSearchDropdown">
-											<form role="search" action="page-search-results.html" method="get">
-												<div class="simple-search input-group"> <input
-														class="form-control text-1" id="headerSearch" name="q"
-														type="search" value="" placeholder="Search..."> <span
-														class="input-group-append"> <button class="btn" type="submit">
-															<i class="fa fa-search header-nav-top-icon"></i> </button>
-													</span> </div>
-											</form>
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>
