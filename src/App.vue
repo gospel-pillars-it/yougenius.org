@@ -1,29 +1,40 @@
 <template>
   <div id="app">
+    <Header />
+    <div role="main" class="main">
+      <Slider />
+      <Intro />
+      <Testimonials />
+    </div>
     <Footer />
   </div>
 </template>
 
 <script>
 import Footer from './components/Footer.vue'
+import Header from './components/Header.vue'
+import Slider from './components/Slider.vue'
+import Intro from './components/Intro.vue'
+import GetStarted from './components/GetStarted.vue'
+import Testimonials from './components/Testimonials.vue'
 
 export default {
   name: 'app',
   metaInfo: {
     title: "You Genius",
     script:[
-      {src: 'master/style-switcher/style.switcher.localstorage.js'},
-      {src: 'vendor/modernizr/modernizr.min.js'},
-      {src: 'vendor/jquery/jquery.min.js'},
-      {src: 'vendor/jquery.appear/jquery.appear.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.easing/jquery.easing.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.cookie/jquery.cookie.min.js', defer: true, body: true},
-      {src: 'master/style-switcher/style.switcher.js', id: 'styleSwitcherScript', defer: true, body: true},
-      {src: 'vendor/popper/umd/popper.min.js', defer: true, body: true}
+      {src: 'vendor/jquery/jquery.min.js', async: true},
+      {src: 'js/demos/demo-education.js', defer: true, body: true},
+      {src: 'js/theme.init.js', body: true}
     ]
-  },
+ },
   components: {
-    Footer
+    Footer,
+    Header,
+    Slider,
+    Intro,
+    GetStarted,
+    Testimonials
   }
 }
 </script>
@@ -47,4 +58,7 @@ export default {
 @import url('css/demos/demo-education.css');
 @import url('css/skins/skin-education.css');
 @import url('css/custom.css');
+.appear-animation{
+  opacity: 1;
+}
 </style>
