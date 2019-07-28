@@ -7,7 +7,7 @@ Theme Version:	7.2.0
 @font-face {
 	font-family: 'star';
   src: url("fonts/star.eot");
-  src: url("fonts/star-1.eot") format("embedded-opentype"), url("fonts/star.woff") format("woff"), url("fonts/star.txt") format("truetype"), url("fonts/star.svg") format("svg");
+  src: url("fonts/star-1.eot") format("embedded-opentype"), url("fonts/star.woff") format("woff"), url("fonts/star.woff") format("truetype"), url("fonts/star.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
