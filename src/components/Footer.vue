@@ -7,7 +7,7 @@
             <div class="col">
               <h2 class="font-weight-semibold text-color-light text-6 mb-3">Newsletter</h2>
               <div class="newsletter">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in arcu facilisis quam.</p>
+                <p>The YouGenius club is an initiative of the Isaiah Wealth ministries birthed from the desire to advance academic excellence, talent and skills of students with drive to succeed and become an influence to the society.</p>
 
                 <div class="alert alert-success d-none" id="newsletterSuccess">
                   <strong>Success!</strong> You've been added to our email list.
@@ -37,9 +37,9 @@
           <h2 class="font-weight-semibold text-color-light text-6 mb-3">Contact Details</h2>
           <p>
             Call:
-            <a href="tel:+1234567890" class="text-3">123-456-7890</a><br>
+            <a href="tel:07085197676" class="text-3">07085197676</a><br>
             Email:
-            <a href="mailto:info@porto.com" class="text-3">info@porto.com</a>
+            <a href="mailto:info@yougenius.org" class="text-3">info@yougenius.org</a>
           </p>
           <ul class="social-icons social-icons-transparent">
             <li class="social-icons-facebook">
