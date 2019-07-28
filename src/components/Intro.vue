@@ -180,5 +180,4 @@
 </template>
 
 <style scoped>
-opacity: 1;
 </style>

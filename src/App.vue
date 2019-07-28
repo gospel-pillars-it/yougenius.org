@@ -4,6 +4,7 @@
     <div role="main" class="main">
       <Slider />
       <Intro />
+      <Testimonials />
     </div>
     <Footer />
   </div>
@@ -15,36 +16,16 @@ import Header from './components/Header.vue'
 import Slider from './components/Slider.vue'
 import Intro from './components/Intro.vue'
 import GetStarted from './components/GetStarted.vue'
+import Testimonials from './components/Testimonials.vue'
 
 export default {
   name: 'app',
   metaInfo: {
     title: "You Genius",
     script:[
-      {src: 'master/style-switcher/style.switcher.localstorage.js'},
-      {src: 'vendor/modernizr/modernizr.min.js'},
       {src: 'vendor/jquery/jquery.min.js', async: true},
-      {src: 'vendor/jquery.appear/jquery.appear.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.easing/jquery.easing.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.cookie/jquery.cookie.min.js', defer: true, body: true},
-      {src: 'master/style-switcher/style.switcher.js', id: 'styleSwitcherScript', defer: true, body: true},
-      {src: 'vendor/popper/umd/popper.min.js', defer: true, body: true},
-      {src: 'vendor/bootstrap/js/bootstrap.min.js', defer: true, body: true},
-      {src: 'vendor/common/common.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.validation/jquery.validate.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.gmap/jquery.gmap.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.lazyload/jquery.lazyload.min.js', defer: true, body: true},
-      {src: 'vendor/isotope/jquery.isotope.min.js', defer: true, body: true},
-      {src: 'vendor/magnific-popup/jquery.magnific-popup.min.js', defer: true, body: true},
-      {src: 'vendor/vide/jquery.vide.min.js', defer: true, body: true},
-      {src: 'vendor/vivus/vivus.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.countdown/jquery.countdown.min.js', defer: true, body: true},
-      {src: 'js/theme.js', defer: true, body: true},
-      {src: 'vendor/rs-plugin/js/jquery.themepunch.tools.min.js', defer: true, body: true},
-      {src: 'vendor/rs-plugin/js/jquery.themepunch.revolution.min.js', defer: true, body: true},
-      {src: 'js/views/view.contact.js', defer: true, body: true},
       {src: 'js/demos/demo-education.js', defer: true, body: true},
-      {src: 'js/theme.init.js', defer: true, body: true}
+      {src: 'js/theme.init.js', body: true}
     ]
  },
   components: {
@@ -52,7 +33,8 @@ export default {
     Header,
     Slider,
     Intro,
-    GetStarted
+    GetStarted,
+    Testimonials
   }
 }
 </script>
@@ -76,4 +58,7 @@ export default {
 @import url('css/demos/demo-education.css');
 @import url('css/skins/skin-education.css');
 @import url('css/custom.css');
+.appear-animation{
+  opacity: 1;
+}
 </style>
