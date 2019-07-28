@@ -181,7 +181,10 @@
 
 <style scoped>
 <<<<<<< HEAD
+<<<<<<< HEAD
 opacity: 1;
 =======
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+>>>>>>> dev
 </style>

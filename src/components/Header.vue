@@ -16,6 +16,7 @@
 											</li>
 											<li class="nav-item nav-item-borders py-2">
 <<<<<<< HEAD
+<<<<<<< HEAD
 												<span class="ws-nowrap text-light"><span class="opacity-7">Email:</span>
 													<a class="text-light"
 														href="mailto:info@porto.com">info@porto.com</a></span>
@@ -28,6 +29,11 @@
 													<a class="text-light"
 														href="mailto:info@yougenius.org">info@yougenius.org</a></span>
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+												<span class="ws-nowrap text-light"><span class="opacity-7">Email: </span>
+													<a class="text-light"
+														href="mailto:info@yougenius.org">info@yougenius.org</a></span>
+>>>>>>> dev
 											</li>
 										</ul>
 									</nav>
@@ -58,12 +64,17 @@
 							<div class="header-row">
 								<div class="header-logo">
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<a href="demo-education.htm">
 										<img alt="Porto" width="100" height="48" src="img/demos/education/logo.png">
 =======
 									<a href="#">
 										<img alt="YouGenius" width="100" height="48" src="img/logo.png">
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+									<a href="#">
+										<img alt="YouGenius" width="100" height="48" src="img/logo.png">
+>>>>>>> dev
 									</a>
 								</div>
 							</div>
@@ -78,14 +89,19 @@
 											<ul class="nav nav-pills" id="mainNav">
 												<li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 													<a class="nav-link active" href="demo-education.htm">
 =======
 													<a class="nav-link active" href="#">
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+													<a class="nav-link active" href="#">
+>>>>>>> dev
 														Home
 													</a>
 												</li>
 												<li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 													<a class="nav-link" href="demo-education-about-us.htm">
 														About Us
@@ -94,19 +110,24 @@
 												<li>
 													<a class="nav-link" href="demo-education-courses.htm">
 														Courses
+=======
+													<a class="nav-link" href="#about">
+														About YouGenius
+>>>>>>> dev
 													</a>
 												</li>
 												<li>
-													<a class="nav-link" href="demo-education-instructors.htm">
-														Instructors
+													<a class="nav-link" href="#activities">
+														Activities
 													</a>
 												</li>
 												<li>
-													<a class="nav-link" href="demo-education-blog.htm">
-														Blog
+													<a class="nav-link" href="#testimonials">
+														Testimonials
 													</a>
 												</li>
 												<li>
+<<<<<<< HEAD
 													<a class="nav-link" href="demo-education-contact-us.htm">
 =======
 													<a class="nav-link" href="#about">
@@ -126,6 +147,9 @@
 												<li>
 													<a class="nav-link" href="#contact">
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+													<a class="nav-link" href="#contact">
+>>>>>>> dev
 														Contact Us
 													</a>
 												</li>
@@ -137,6 +161,7 @@
 										<i class="fas fa-bars"></i>
 									</button>
 								</div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<div
 									class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
@@ -157,6 +182,8 @@
 								</div>
 =======
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+>>>>>>> dev
 							</div>
 						</div>
 					</div>

@@ -5,9 +5,13 @@
       <Slider />
       <Intro />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <Testimonials />
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+      <Testimonials />
+>>>>>>> dev
     </div>
     <Footer />
   </div>
@@ -20,9 +24,13 @@ import Slider from './components/Slider.vue'
 import Intro from './components/Intro.vue'
 import GetStarted from './components/GetStarted.vue'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import Testimonials from './components/Testimonials.vue'
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+import Testimonials from './components/Testimonials.vue'
+>>>>>>> dev
 
 export default {
   name: 'app',
@@ -30,35 +38,23 @@ export default {
     title: "You Genius",
     script:[
 <<<<<<< HEAD
+<<<<<<< HEAD
       {src: 'master/style-switcher/style.switcher.localstorage.js'},
       {src: 'vendor/modernizr/modernizr.min.js'},
+=======
+>>>>>>> dev
       {src: 'vendor/jquery/jquery.min.js', async: true},
-      {src: 'vendor/jquery.appear/jquery.appear.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.easing/jquery.easing.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.cookie/jquery.cookie.min.js', defer: true, body: true},
-      {src: 'master/style-switcher/style.switcher.js', id: 'styleSwitcherScript', defer: true, body: true},
-      {src: 'vendor/popper/umd/popper.min.js', defer: true, body: true},
-      {src: 'vendor/bootstrap/js/bootstrap.min.js', defer: true, body: true},
-      {src: 'vendor/common/common.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.validation/jquery.validate.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.gmap/jquery.gmap.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.lazyload/jquery.lazyload.min.js', defer: true, body: true},
-      {src: 'vendor/isotope/jquery.isotope.min.js', defer: true, body: true},
-      {src: 'vendor/magnific-popup/jquery.magnific-popup.min.js', defer: true, body: true},
-      {src: 'vendor/vide/jquery.vide.min.js', defer: true, body: true},
-      {src: 'vendor/vivus/vivus.min.js', defer: true, body: true},
-      {src: 'vendor/jquery.countdown/jquery.countdown.min.js', defer: true, body: true},
-      {src: 'js/theme.js', defer: true, body: true},
-      {src: 'vendor/rs-plugin/js/jquery.themepunch.tools.min.js', defer: true, body: true},
-      {src: 'vendor/rs-plugin/js/jquery.themepunch.revolution.min.js', defer: true, body: true},
-      {src: 'js/views/view.contact.js', defer: true, body: true},
       {src: 'js/demos/demo-education.js', defer: true, body: true},
+<<<<<<< HEAD
       {src: 'js/theme.init.js', defer: true, body: true}
 =======
       {src: 'vendor/jquery/jquery.min.js', async: true},
       {src: 'js/demos/demo-education.js', defer: true, body: true},
       {src: 'js/theme.init.js', body: true}
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+      {src: 'js/theme.init.js', body: true}
+>>>>>>> dev
     ]
  },
   components: {
@@ -67,11 +63,16 @@ export default {
     Slider,
     Intro,
 <<<<<<< HEAD
+<<<<<<< HEAD
     GetStarted
 =======
     GetStarted,
     Testimonials
 >>>>>>> 0970541d850e9df4994f5869b61d562098e81e7e
+=======
+    GetStarted,
+    Testimonials
+>>>>>>> dev
   }
 }
 </script>
