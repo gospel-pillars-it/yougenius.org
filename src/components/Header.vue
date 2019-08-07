@@ -14,7 +14,7 @@
 											<li class="nav-item nav-item-borders py-2 d-none d-sm-inline-flex">
 												<span class="ws-nowrap text-light pl-0"><span
 														class="opacity-7">Phone:</span> <a class="text-light"
-														href="tel:+1234567890">125 586 5555</a></span>
+														href="tel:+234708519676">0708519676</a></span>
 											</li>
 											<li class="nav-item nav-item-borders py-2">
 												<span class="ws-nowrap text-light"><span class="opacity-7">Email: </span>

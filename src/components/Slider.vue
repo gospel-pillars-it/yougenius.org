@@ -4,7 +4,7 @@
       <ul>
         <li data-transition="fade">
           <img
-            src="img/demos/education/slides/slide-1.jpg"
+            src="img/gallery/pic2.jpg"
             alt
             data-bgposition="center center"
             data-bgfit="cover"
